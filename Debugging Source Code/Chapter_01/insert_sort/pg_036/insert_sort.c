@@ -42,7 +42,8 @@ void insert(int new_y)
          return;
       }
    }
-   y[num_y]=new_y;
+	// one more case: new_y > all existing y elements
+	y[num_y] = new_y;
 }
 
 void process_data()
